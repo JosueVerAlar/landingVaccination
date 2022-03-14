@@ -1,0 +1,122 @@
+/*general*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tituloIzquierda{
+ color: #1f3e72;
+ text-align: left;
+ padding: 5px 150px;
+}
+.titulo{
+    color: #1f3e72;
+    text-align: left;
+    padding: 5px 0px;
+   }
+
+/*Headers*/
+.menu-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+.menu-item{
+    display: flex;
+    text-decoration-line: none;
+    color: #6d7b93;
+}
+
+.mainLogo{
+    width: 100px;
+    display: flex;
+    align-self: initial;
+}
+
+.button1{
+    background-color: #3050ce;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 130px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2{
+    background-color: #eef3ff;
+    color: #3050ce;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 130px;
+    text-decoration: none;
+    border: none;
+}
+
+/*First box "fitght cirus with vaccines"*/
+.parrafo{
+    display: flex;
+    text-align: left;
+    max-width: 450px;
+    padding: 5px 150px;
+}
+
+.vacunasTipo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    height: 200px;
+    background-color: #eef3ff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxes{
+    margin: 0px 105px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen{
+    margin: 0px 70px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.variasCajas{
+    margin: 0px 105px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.schedule{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+
+}
+
+.iconTitle{
+    display: flex;
+    justify-content: left;
+}
+
+.submenu{
+    display: flex;
+    flex-direction: column;
+}
+
+.final{
+    background-color: #eef3ff;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
